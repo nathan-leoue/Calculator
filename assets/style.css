@@ -1,0 +1,102 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #000000;
+}
+
+#calc
+{
+	width:275px;
+	background: linear-gradient(0deg, #0d0d0d 50%, #1a1a1a);
+	border:1px solid #303030;
+	border-top: 1px solid #606060;
+	padding:15px;
+	margin: 100px;
+	border-radius: 10px;
+}
+
+#titre
+{
+	font-weight: bold;
+}
+
+
+#ligne_affichage
+{
+	margin-top:10px;
+
+}
+
+#zone_affichage
+{
+	font-size:20px;
+	text-align:right;
+	width:252px;
+	color: #f2f2f2;
+	background-color: #0d0d0d;
+	border: none;
+	border-bottom: 1px solid #464646;
+}
+
+.ligne_boutons
+{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+input /* pour mettre les boutons cote a cote*/
+{
+	display:inline-block;
+}
+
+.bouton_classique /* boutons non editable */
+{
+	width:40px;
+	font-size:20px;
+	padding:3px;
+	margin:auto;
+	background-color: #1a1a1a;
+	border: 1px solid #303030;
+	color: #f2f2f2;
+	border-radius: 5px;
+}
+
+.bouton_classique:hover
+{
+	background: linear-gradient(0deg, #1a1a1a, #282828);
+}
+
+.bouton_classique:active
+{
+	background: #353535;
+}
+
+.bouton_libre /* boutons editables */
+{
+	width:85px;
+	font-size:20px;
+	padding:3px;
+	margin:auto;
+	background-color: #1a1a1a;
+	border: 1px solid #303030;
+	color: #f2f2f2;
+	border-radius: 5px;
+}
+
+.bouton_libre:hover
+{
+	background: linear-gradient(0deg, #1a1a1a, #282828);
+}
+
+.bouton_libre:active
+{
+	background: #353535;
+}
